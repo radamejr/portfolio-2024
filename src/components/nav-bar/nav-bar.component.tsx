@@ -1,15 +1,13 @@
-import './nav-bar.scss';
+import "./nav-bar.scss";
 
 const NavBar = () => {
+  return (
+    <div className="navbar-wrapper">
+      <button>Home</button>
+      <button>Technologies</button>
+      <button>Work</button>
+    </div>
+  );
+};
 
-    return (
-        <div className='navbar-wrapper'>
-            <button>Home</button>
-            <button>Knowledge</button>
-            <button>Work</button>
-            <button>Contact</button>
-        </div>
-    )
-}
-
-export default NavBar
+export default NavBar;

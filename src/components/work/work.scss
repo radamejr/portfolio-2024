@@ -1,0 +1,50 @@
+.work-wrapper {
+  .aerialsphere {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    .title-link {
+      font-size: 36px;
+    }
+    .list-title {
+      font-size: 24px;
+      align-self: flex-start;
+    }
+    li {
+      text-align: left;
+    }
+    a {
+      color: red;
+    }
+    a:visited {
+      color: red;
+    }
+  }
+  hr {
+    width: 75%;
+  }
+  .framehameha {
+    margin: 50px auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    .title-link {
+      font-size: 36px;
+    }
+    .list-title {
+      font-size: 24px;
+      align-self: flex-start;
+    }
+    li {
+      text-align: left;
+    }
+    a {
+      color: red;
+    }
+    a:visited {
+      color: red;
+    }
+  }
+}
