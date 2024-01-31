@@ -1,51 +1,107 @@
-.work-wrapper {
-	padding-top: 75px;
-	.aerialsphere {
-		width: 60%;
-		margin: auto;
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 50px;
-		.title-link {
-			font-size: 36px;
+@media only screen and (min-width: 601px) {
+	.work-wrapper {
+		padding-top: 75px;
+		.aerialsphere {
+			width: 60%;
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 50px;
+			.title-link {
+				font-size: 36px;
+			}
+			.list-title {
+				font-size: 24px;
+				align-self: flex-start;
+			}
+			li {
+				text-align: left;
+			}
+			a {
+				color: red;
+			}
+			a:visited {
+				color: red;
+			}
 		}
-		.list-title {
-			font-size: 24px;
-			align-self: flex-start;
+		hr {
+			width: 75%;
 		}
-		li {
-			text-align: left;
-		}
-		a {
-			color: red;
-		}
-		a:visited {
-			color: red;
+		.framehameha {
+			margin: 50px auto;
+			width: 60%;
+			display: flex;
+			flex-direction: column;
+			.title-link {
+				font-size: 36px;
+			}
+			.list-title {
+				font-size: 24px;
+				align-self: flex-start;
+			}
+			li {
+				text-align: left;
+			}
+			a {
+				color: red;
+			}
+			a:visited {
+				color: red;
+			}
 		}
 	}
-	hr {
-		width: 75%;
-	}
-	.framehameha {
-		margin: 50px auto;
-		width: 60%;
-		display: flex;
-		flex-direction: column;
-		.title-link {
-			font-size: 36px;
+}
+
+@media only screen and (max-width: 600px) {
+	.work-wrapper {
+		padding-top: 75px;
+		.aerialsphere {
+			width: 85%;
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 50px;
+			.title-link {
+				font-size: 36px;
+			}
+			.list-title {
+				font-size: 24px;
+				align-self: flex-start;
+			}
+			li {
+				text-align: left;
+			}
+			a {
+				color: red;
+			}
+			a:visited {
+				color: red;
+			}
 		}
-		.list-title {
-			font-size: 24px;
-			align-self: flex-start;
+		hr {
+			width: 100%;
 		}
-		li {
-			text-align: left;
-		}
-		a {
-			color: red;
-		}
-		a:visited {
-			color: red;
+		.framehameha {
+			margin: 50px auto;
+			width: 85%;
+			display: flex;
+			flex-direction: column;
+			.title-link {
+				font-size: 36px;
+			}
+			.list-title {
+				font-size: 24px;
+				align-self: flex-start;
+			}
+			li {
+				text-align: left;
+			}
+			a {
+				color: red;
+			}
+			a:visited {
+				color: red;
+			}
 		}
 	}
 }
