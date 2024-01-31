@@ -1,18 +1,18 @@
 .about-wrapper {
-  padding: 25vh 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  height: calc(75vh - 50px);
-  .picture {
-    border-radius: 150px;
-    border-color: white;
-    border: 1px solid;
-    width: 200px;
-    align-self: center;
-  }
-  .blurb {
-    width: 60%;
-    align-self: center;
-    font-size: 18px;
-  }
+	padding: 25vh 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	height: calc(75vh - 50px);
+	.picture {
+		border-radius: 150px;
+		border-color: white;
+		border: 1px solid;
+		width: 200px;
+		align-self: center;
+	}
+	.blurb {
+		width: 60%;
+		align-self: center;
+		font-size: 18px;
+	}
 }

@@ -1,13 +1,34 @@
 import "./nav-bar.scss";
 
 const NavBar = () => {
-  return (
-    <div className="navbar-wrapper">
-      <button>Home</button>
-      <button>Technologies</button>
-      <button>Work</button>
-    </div>
-  );
+	const handleClick = (id: string) => {
+		document.getElementById(id)?.scrollIntoView();
+	};
+	return (
+		<div className="navbar-wrapper">
+			<button
+				onClick={() => {
+					handleClick("me");
+				}}
+			>
+				Home
+			</button>
+			<button
+				onClick={() => {
+					handleClick("skill");
+				}}
+			>
+				Technologies
+			</button>
+			<button
+				onClick={() => {
+					handleClick("work");
+				}}
+			>
+				Work
+			</button>
+		</div>
+	);
 };
 
 export default NavBar;

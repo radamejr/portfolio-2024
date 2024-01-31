@@ -5,13 +5,13 @@ import Work from "./components/work/work.component";
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  return (
-    <div className="wrapper">
-      <AboutMe />
-      <NavBar />
-      <Skills />
-      <Work />
-    </div>
-  );
+	return (
+		<div className="wrapper">
+			<AboutMe />
+			<NavBar />
+			<Skills />
+			<Work />
+		</div>
+	);
 };
 export default Portfolio;
