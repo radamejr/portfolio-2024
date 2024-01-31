@@ -10,6 +10,8 @@ const Work = () => {
 				<a
 					className="title-link"
 					href="https://www.aerialsphere.com/"
+					target="_blank"
+					rel="noreferrer"
 				>
 					{" "}
 					AerialSphere{" "}
@@ -88,6 +90,8 @@ const Work = () => {
 				<a
 					className="title-link"
 					href="https://www.aerialsphere.com/"
+					target="_blank"
+					rel="noreferrer"
 				>
 					{" "}
 					Framehameha{" "}
