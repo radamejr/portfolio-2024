@@ -7,7 +7,7 @@ const NavBar = () => {
 	return (
 		<div className="navbar-wrapper">
 			<button
-				data-testid='me button'
+				data-testid="me button"
 				onClick={() => {
 					handleClick("me");
 				}}
@@ -15,7 +15,7 @@ const NavBar = () => {
 				Home
 			</button>
 			<button
-				data-testid='skill button'
+				data-testid="skill button"
 				onClick={() => {
 					handleClick("skill");
 				}}
@@ -23,7 +23,7 @@ const NavBar = () => {
 				Technologies
 			</button>
 			<button
-				data-testid='work button'
+				data-testid="work button"
 				onClick={() => {
 					handleClick("work");
 				}}
