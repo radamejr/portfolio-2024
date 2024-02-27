@@ -89,7 +89,7 @@ const Work = () => {
 			<div className="framehameha">
 				<a
 					className="title-link"
-					href="https://www.aerialsphere.com/"
+					href="https://www.framehameha.com/learning/"
 					target="_blank"
 					rel="noreferrer"
 				>
