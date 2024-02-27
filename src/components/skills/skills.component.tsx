@@ -20,6 +20,7 @@ const Skills = () => {
 		>
 			<div className="technology-wrapper">
 				<img
+					data-testid="aws image"
 					className="technology-image aws"
 					src={aws}
 					alt="Amazon Web Services"
@@ -36,6 +37,7 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="django image"
 					className="technology-image"
 					src={django}
 					alt="Django"
@@ -53,6 +55,7 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="js image"
 					className="technology-image"
 					src={js}
 					alt="JavaScript"
@@ -72,6 +75,7 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="react image"
 					className="technology-image"
 					src={react}
 					alt="React"
@@ -88,6 +92,7 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="python image"
 					className="technology-image"
 					src={python}
 					alt="Python"
@@ -102,6 +107,7 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="redux image"
 					className="technology-image"
 					src={redux}
 					alt="Redux"
@@ -119,6 +125,7 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="ts image"
 					className="technology-image"
 					src={typescript}
 					alt="TypeScript"
