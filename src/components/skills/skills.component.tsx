@@ -20,6 +20,23 @@ const Skills = () => {
 		>
 			<div className="technology-wrapper">
 				<img
+					data-testid="react image"
+					className="technology-image"
+					src={react}
+					alt="React"
+					onClick={() => {
+						handleClick("https://react.dev/");
+					}}
+				/>
+				<div className="technoloy-blurb">
+					With React, you can be a web and a native developer. Your team can
+					ship to many platforms without sacrificing the user experience. Your
+					organization can bridge the platform silos, and form teams that own
+					entire features end-to-end.
+				</div>
+			</div>
+			<div className="technology-wrapper">
+				<img
 					data-testid="aws image"
 					className="technology-image aws"
 					src={aws}
@@ -33,24 +50,6 @@ const Skills = () => {
 					broadly adopted cloud, offering over 200 fully featured services from
 					data centers globally. Experience includes S3, Lambda, Api Gateway,
 					cloudwatch, cloudformation, aws cli, EC2, parameter store.
-				</div>
-			</div>
-			<div className="technology-wrapper">
-				<img
-					data-testid="django image"
-					className="technology-image"
-					src={django}
-					alt="Django"
-					onClick={() => {
-						handleClick("https://www.djangoproject.com/");
-					}}
-				/>
-				<div className="technoloy-blurb">
-					Django is a high-level Python web framework that encourages rapid
-					development and clean, pragmatic design. Built by experienced
-					developers, it takes care of much of the hassle of web development, so
-					you can focus on writing your app without needing to reinvent the
-					wheel.
 				</div>
 			</div>
 			<div className="technology-wrapper">
@@ -75,19 +74,17 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
-					data-testid="react image"
+					data-testid="ts image"
 					className="technology-image"
-					src={react}
-					alt="React"
+					src={typescript}
+					alt="TypeScript"
 					onClick={() => {
-						handleClick("https://react.dev/");
+						handleClick("https://www.typescriptlang.org/");
 					}}
 				/>
 				<div className="technoloy-blurb">
-					With React, you can be a web and a native developer. Your team can
-					ship to many platforms without sacrificing the user experience. Your
-					organization can bridge the platform silos, and form teams that own
-					entire features end-to-end.
+					TypeScript is a strongly typed programming language that builds on
+					JavaScript, giving you better tooling at any scale.
 				</div>
 			</div>
 			<div className="technology-wrapper">
@@ -107,6 +104,24 @@ const Skills = () => {
 			</div>
 			<div className="technology-wrapper">
 				<img
+					data-testid="django image"
+					className="technology-image"
+					src={django}
+					alt="Django"
+					onClick={() => {
+						handleClick("https://www.djangoproject.com/");
+					}}
+				/>
+				<div className="technoloy-blurb">
+					Django is a high-level Python web framework that encourages rapid
+					development and clean, pragmatic design. Built by experienced
+					developers, it takes care of much of the hassle of web development, so
+					you can focus on writing your app without needing to reinvent the
+					wheel.
+				</div>
+			</div>
+			<div className="technology-wrapper">
+				<img
 					data-testid="redux image"
 					className="technology-image"
 					src={redux}
@@ -121,21 +136,6 @@ const Skills = () => {
 					environments (client, server, and native), and are easy to test. On
 					top of that, it provides a great developer experience, such as live
 					code editing combined with a time traveling debugger.
-				</div>
-			</div>
-			<div className="technology-wrapper">
-				<img
-					data-testid="ts image"
-					className="technology-image"
-					src={typescript}
-					alt="TypeScript"
-					onClick={() => {
-						handleClick("https://www.typescriptlang.org/");
-					}}
-				/>
-				<div className="technoloy-blurb">
-					TypeScript is a strongly typed programming language that builds on
-					JavaScript, giving you better tooling at any scale.
 				</div>
 			</div>
 		</div>
