@@ -3,6 +3,7 @@ import NavBar from "./components/nav-bar/nav-bar.component";
 import Skills from "./components/skills/skills.component";
 import Work from "./components/work/work.component";
 import "./Portfolio.css";
+import "./background-stars.scss"
 
 const Portfolio = () => {
 	return (
@@ -11,6 +12,12 @@ const Portfolio = () => {
 			<NavBar />
 			<Skills />
 			<Work />
+			<div className="bg-animation">
+				<div id="stars"></div>
+				<div id="stars2"></div>
+				<div id="stars3"></div>
+				<div id="stars4"></div>
+    		</div>
 		</div>
 	);
 };
