@@ -5,14 +5,11 @@ import python from "../../assets/python.png";
 import react from "../../assets/react.png";
 import redux from "../../assets/redux.png";
 import typescript from "../../assets/typescript.png";
+import { handleClick } from "../../helpers/component.helpers";
 
 import "./skills.scss";
 
 const Skills = () => {
-	const handleClick = (url: string) => {
-		window.open(url, "_blank");
-	};
-
 	return (
 		<div
 			id="skill"

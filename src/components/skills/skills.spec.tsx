@@ -1,10 +1,11 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import Skills from "./skills.component";
+import * as Helpers from '../../helpers/component.helpers';
 
 const imageIds = ["aws", "django", "js", "react", "python", "redux", "ts"];
 
 describe("AboutMe", () => {
-	const windowSpy = jest.spyOn(window, "open");
+	const helperSpy = jest.spyOn(Helpers, "handleClick");
 	beforeEach(() => {
 		jest.clearAllMocks();
 		jest.resetAllMocks();
@@ -22,7 +23,7 @@ describe("AboutMe", () => {
 
 			const image = screen.getByTestId(`${id} image`);
 			fireEvent.click(image);
-			expect(windowSpy).toBeCalled();
+			expect(helperSpy).toBeCalled();
 		});
 	});
 });

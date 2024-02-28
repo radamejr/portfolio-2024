@@ -12,7 +12,7 @@ const NavBar = () => {
 					handleClick("me");
 				}}
 			>
-				Home
+				About Me
 			</button>
 			<button
 				data-testid="skill button"

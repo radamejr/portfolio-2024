@@ -1,7 +1,15 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import AboutMe from "./about-me.component";
+import * as Helpers from '../../helpers/component.helpers';
+
+const contactIds = ["linkedin", "github", "email"];
 
 describe("AboutMe", () => {
+	const helperSpy = jest.spyOn(Helpers, "handleClick");
+	beforeEach(() => {
+		jest.clearAllMocks();
+		jest.resetAllMocks();
+	});
 	it("should render", () => {
 		const renderResult = render(<AboutMe />);
 		const text = screen.getByText(
@@ -11,4 +19,15 @@ describe("AboutMe", () => {
 		expect(renderResult).toBeTruthy();
 		expect(text).toBeTruthy();
 	});
+
+	contactIds.forEach((id) => {
+		it(`${id} contact on click works`, () => {
+			const renderResult = render(<AboutMe />);
+			expect(renderResult).toBeTruthy();
+
+			const image = screen.getByTestId(`contact ${id}`);
+			fireEvent.click(image);
+			expect(helperSpy).toBeCalled();
+		});
+	})
 });

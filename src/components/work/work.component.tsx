@@ -30,24 +30,18 @@ const Work = () => {
 				</p>
 				<p className="list-title">Contributions:</p>
 				<ul>
-					<li>Develop and maintain Django REST API's</li>
-					<li>Develop and maintain embedded XP360 API for client use</li>
-					<li>
-						Develop and maintain several AWS technologies including: LAMBDAs,
-						DynamoDB, S3, API Gateway
-					</li>
-					<li>
-						Develop React based webapp for both our Zwivel and XP360 API
-						customers to login, sign-up, use and manage their accounts
-					</li>
-					<li>
-						Develop propriertary processes for integration into the ESRI
-						platform and creation of Oriented Imagery Catalogs
-					</li>
-					<li>
-						Develop JSFiddle examples using our embedded API for our
-						documentation
-					</li>
+					<li>Responsible for designing, planning, developing, deploying and launching new Zwivel product</li>
+					<li>Responsible for mentoring and onboarding newly hired software engineers</li>
+					<li>Responsible for developing and deploying paid client experiences using our XP360 API Product</li>
+					<li>Responsible for maintaining and adding features to API Viewer 1.0</li>
+					<li>Responsible for maintaining and adding features to Django REST API</li>
+					<li>Responsible for planning, building, maintaining, deploying and launching Xp360 Web App</li>
+					<li>Responsible for planning, building, maintaining, deploying and launching API Viewer 2.0</li>
+					<li>Updated JavaScript API product, created singular Monorepo using NX to house all apps together and their associated in-house libs</li>
+					<li>Utilized Stripe payment API within our product for smooth purchasing experience</li>
+					<li>Responsible for maintaining and updating our desktop apps</li>
+					<li>Responsible for building, maintaining and deploying AWS Services to allow ESRI integration</li>
+					<li>Includes an API Gateway security, LAMBDA and Dynamo DB</li>
 				</ul>
 				<p className="list-title">Examples:</p>
 				<ul>
